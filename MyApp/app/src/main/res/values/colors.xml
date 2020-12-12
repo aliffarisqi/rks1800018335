@@ -3,4 +3,21 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    //custome color
+    //nackground color
+    <color name="mainColor">#199EB9</color>
+    <color name="secondColor">#FFD45E</color>
+    <color name="darkColor">#EEF9FF</color>
+    //day
+    <color name="dayOneColor">#A2A2A2</color>
+    <color name="dayTwoColor">#FF0606</color>
+    <color name="dayThreeColor">#FF8B06</color>
+    <color name="dayFourColor">#FFDE06</color>
+    <color name="dayFiveColor">#D7FF06</color>
+    <color name="daySixColor">#A1C22E</color>
+    <color name="daySevenColor">#3FE339</color>
+    <color name="dayEightColor">#199EB9</color>
+    //online color
+    <color name="onlineColor">#FFD45E</color>
 </resources>

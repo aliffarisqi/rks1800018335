@@ -8,7 +8,8 @@
     //nackground color
     <color name="mainColor">#199EB9</color>
     <color name="secondColor">#FFD45E</color>
-    <color name="darkColor">#EEF9FF</color>
+    <color name="whiteColor">#EEF9FF</color>
+    <color name="darkColor">#1B1B1B</color>
     //day
     <color name="dayOneColor">#A2A2A2</color>
     <color name="dayTwoColor">#FF0606</color>

@@ -66,6 +66,7 @@
         android:background="@drawable/slide1welcome">
     </ImageView>
     <Button
+        android:id="@+id/next1"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/slide1welcome"
@@ -74,6 +75,15 @@
         android:layout_centerHorizontal="true"
         >
     </Button>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/slide1welcome"
+        android:background="@drawable/panah"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+    </ImageView>
+    
 
 
 

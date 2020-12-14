@@ -4,6 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/mainColor">
+    <TextView
+        android:id="@+id/bg2WP1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_welcome_page"
+        android:layout_marginTop="150dp">
+    </TextView>
     <ImageView
         android:layout_width="270dp"
         android:layout_height="230dp"
@@ -13,22 +22,59 @@
         >
     </ImageView>
     <TextView
+        android:id="@+id/titleWp1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Seneo"
-        android:textSize="62sp"
+        android:textSize="65sp"
         android:textColor="@color/secondColor"
-        android:layout_marginTop="40dp"
-        android:layout_centerHorizontal="true">
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:textStyle="bold">
     </TextView>
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
+        android:id="@+id/taglineWP1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sekolah New Normal"
+        android:layout_below="@+id/titleWp1"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/bg_welcome_page"
-        android:layout_marginTop="150dp">
+        android:layout_marginTop="-10dp"
+        android:textColor="@color/whiteColor"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif">
     </TextView>
+    <TextView
+        android:id="@+id/skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SKIP"
+        android:textSize="28sp"
+        android:layout_below="@+id/taglineWP1"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp">
+    </TextView>
+    <ImageView
+        android:id="@+id/slide1welcome"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_below="@+id/skip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/slide1welcome">
+    </ImageView>
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slide1welcome"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bg_tombol"
+        android:layout_centerHorizontal="true"
+        >
+    </Button>
+
 
 
 </RelativeLayout>

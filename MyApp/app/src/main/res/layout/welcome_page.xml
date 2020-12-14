@@ -4,6 +4,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/mainColor">
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="230dp"
+        android:background="@drawable/animasilogin"
+        android:layout_marginTop="-80dp"
+        android:layout_marginLeft="-30dp"
+        >
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seneo"
+        android:textSize="62sp"
+        android:textColor="@color/secondColor"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true">
+    </TextView>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

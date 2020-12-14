@@ -65,25 +65,25 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/slide1welcome">
     </ImageView>
-    <Button
+
+    <TextView
         android:id="@+id/next1"
         android:layout_width="120dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_below="@+id/slide1welcome"
         android:layout_marginTop="40dp"
         android:background="@drawable/bg_tombol"
         android:layout_centerHorizontal="true"
         >
-    </Button>
+    </TextView>
     <ImageView
         android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_height="40dp"
         android:layout_below="@+id/slide1welcome"
-        android:background="@drawable/panah"
+        android:layout_marginTop="44dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp">
+        android:background="@drawable/panah">
     </ImageView>
-    
 
 
 

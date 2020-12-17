@@ -1,15 +1,14 @@
-package com.example.myapp;
+package com.example.myapp.login.page;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class welcome_page_2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.welcome_page);
-
+        setContentView(R.layout.activity_welcome_page_2);
     }
 }

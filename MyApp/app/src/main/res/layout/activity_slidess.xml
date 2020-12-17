@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/mainColor"
-    tools:context=".MainActivity">
+    tools:context=".Slidess">
     <TextView
-        android:id="@+id/bg2WP11"
+        android:id="@+id/bg2WP12"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
@@ -24,7 +24,7 @@
         >
     </ImageView>
     <TextView
-        android:id="@+id/titleWp11"
+        android:id="@+id/titleWp12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Seneo"
@@ -36,11 +36,11 @@
         android:textStyle="bold">
     </TextView>
     <TextView
-        android:id="@+id/taglineWP11"
+        android:id="@+id/taglineWP12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sekolah New Normal"
-        android:layout_below="@+id/titleWp11"
+        android:layout_below="@+id/titleWp12"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="-10dp"
         android:textColor="@color/whiteColor"
@@ -48,41 +48,42 @@
         android:fontFamily="sans-serif">
     </TextView>
     <TextView
-        android:id="@+id/skip1"
+        android:id="@+id/skip2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SKIP"
         android:textSize="28sp"
-        android:layout_below="@+id/taglineWP11"
+        android:layout_below="@+id/taglineWP12"
         android:layout_alignParentRight="true"
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp">
     </TextView>
     <ImageView
-        android:id="@+id/slide1welcome1"
-        android:layout_width="230dp"
-        android:layout_height="230dp"
-        android:layout_below="@+id/skip1"
+        android:id="@+id/slide1welcome2"
+        android:layout_width="240dp"
+        android:layout_height="180dp"
+        android:layout_below="@+id/skip2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:background="@drawable/slide1welcome">
+        android:background="@drawable/perpustakaan">
     </ImageView>
 
     <TextView
-        android:id="@+id/pesan11"
+        android:id="@+id/pesan22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sekolah sekarang \nDalam Genggaman"
-        android:layout_below="@id/slide1welcome1"
+        android:text="Maksimalkan belajarmu \n
+        di masa new normal "
+        android:layout_below="@id/slide1welcome2"
         android:textAlignment="center"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:textSize="22dp"/>
     <Button
-        android:id="@+id/next1"
+        android:id="@+id/next3"
         android:layout_width="120dp"
         android:layout_height="50dp"
-        android:layout_below="@+id/pesan11"
+        android:layout_below="@+id/pesan22"
         android:layout_marginTop="40dp"
         android:drawableLeft="@drawable/arrow"
         android:paddingLeft="40dp"
@@ -90,7 +91,5 @@
         android:layout_centerHorizontal="true"
         >
     </Button>
-
-
 
 </RelativeLayout>

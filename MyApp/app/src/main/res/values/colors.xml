@@ -11,6 +11,8 @@
 
     <color name="mainColor">#199EB9</color>
     <color name="secondColor">#FFD45E</color>
+    <color name="thirdColor">#DAF1FF</color>
+
     <color name="whiteColor">#EEF9FF</color>
     <color name="darkColor">#1B1B1B</color>
     //day

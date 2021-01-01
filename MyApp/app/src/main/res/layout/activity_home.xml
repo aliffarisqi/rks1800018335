@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="SMP N 3"
-            android:textSize="32sp"
+            android:textSize="42sp"
             android:textStyle="bold"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
@@ -36,7 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="SMP N 3"
-            android:textSize="32sp"
+            android:textSize="42sp"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
             android:textColor="@color/whiteColor"
@@ -74,7 +74,7 @@
             android:textSize="32dp"
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="20dp"
-            android:textColor="@color/colorPrimary"/>
+            android:textColor="@color/mainColor"/>
         <TextView
             android:layout_width="40dp"
             android:layout_height="40dp"
@@ -98,7 +98,125 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="15dp"
-            android:background="@color/thirdColor">
+            android:background="@color/fourthColor">
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="110dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/perpustakaan"/>
+            <TextView
+                android:id="@+id/TV_Perpustakaan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perpustakaan"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="35dp"
+                android:textSize="22sp"
+                android:textColor="@color/mainColor"/>
+            <TextView
+                android:id="@+id/TV_IPA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ilmu Pengetahuan alam"
+                android:layout_below="@id/TV_Perpustakaan"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="35dp"
+                android:textColor="@color/darkColor"/>
+            <TextView
+                android:id="@+id/TV_IPS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ilmu Pengetahuan Sosial"
+                android:layout_below="@id/TV_IPA"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="-3dp"
+                android:textColor="@color/darkColor"/>
+            <TextView
+                android:id="@+id/TV_Bahasa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bahasa"
+                android:layout_below="@id/TV_IPS"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="-3dp"
+                android:textColor="@color/darkColor"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/layoutHome4"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@id/layoutHome3">
+        <RelativeLayout
+            android:id="@+id/layoutHome41"
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:background="@color/mainColor"
+            android:layout_margin="15dp">
+            <ImageView
+                android:id="@+id/IV_guru"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/guru"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kantor Guru"
+                android:textColor="@color/whiteColor"
+                android:layout_toRightOf="@id/IV_guru"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/layoutHome42"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/bg_square_round"
+            android:layout_toRightOf="@id/layoutHome41">
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:src="@drawable/walikelas"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wali Kelas"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="2dp"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/layoutHome43"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/bg_square_round"
+            android:layout_toRightOf="@id/layoutHome42">
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ketuakelas"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ketua Kelas"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="2dp"
+                android:layout_centerHorizontal="true"/>
         </RelativeLayout>
     </RelativeLayout>
 

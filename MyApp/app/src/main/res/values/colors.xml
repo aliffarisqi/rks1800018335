@@ -11,10 +11,10 @@
 
     <color name="mainColor">#199EB9</color>
     <color name="secondColor">#FFD45E</color>
-    <color name="thirdColor">#DAF1FF</color>
-    <color name="fourthColor">#E3F4FD</color>
+    <color name="thirdColor">#E3EDF2</color>
+    <color name="fourthColor">#EEF9FF</color>
 
-    <color name="whiteColor">#EEF9FF</color>
+    <color name="whiteColor">#FFFFFF</color>
     <color name="darkColor">#1B1B1B</color>
     <color name="transparant">#34199EB9</color>
     //day

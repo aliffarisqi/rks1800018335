@@ -14,7 +14,7 @@
             android:id="@+id/imagaHome"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/sekolahHome"
+            android:src="@drawable/sekolahhome"
             android:layout_alignParentTop="true"
             ></ImageView>
         <View
@@ -76,15 +76,15 @@
             android:layout_marginLeft="20dp"
             android:textColor="@color/mainColor"/>
         <TextView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/bg_warning"
             android:text="4"
-            android:textSize="28dp"
+            android:textSize="38sp"
             android:textColor="@color/whiteColor"
             android:textAlignment="center"/>
     </RelativeLayout>
@@ -149,7 +149,7 @@
     <RelativeLayout
         android:id="@+id/layoutHome4"
         android:layout_width="match_parent"
-        android:layout_height="90dp"
+        android:layout_height="180dp"
         android:layout_below="@id/layoutHome3">
         <RelativeLayout
             android:id="@+id/layoutHome41"
@@ -194,7 +194,8 @@
                 android:text="Wali Kelas"
                 android:layout_alignParentBottom="true"
                 android:layout_marginBottom="2dp"
-                android:layout_centerHorizontal="true"/>
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/darkColor"/>
         </RelativeLayout>
         <RelativeLayout
             android:id="@+id/layoutHome43"
@@ -216,8 +217,46 @@
                 android:text="Ketua Kelas"
                 android:layout_alignParentBottom="true"
                 android:layout_marginBottom="2dp"
-                android:layout_centerHorizontal="true"/>
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/darkColor"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@id/layoutHome41"
+            android:background="@drawable/bg_square_round"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+            <ImageView
+                android:id="@+id/IV_tatausaha"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/tatausaha"
+                android:layout_marginLeft="50dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tata Usaha"
+                android:layout_toRightOf="@+id/IV_tatausaha"
+                android:layout_marginLeft="15dp"
+                android:textSize="28sp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/darkColor"/>
+            <TextView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_warning"
+                android:text="1"
+                android:textSize="25dp"
+                android:textColor="@color/whiteColor"
+                android:textAlignment="center"/>
         </RelativeLayout>
     </RelativeLayout>
+
 
 </RelativeLayout>

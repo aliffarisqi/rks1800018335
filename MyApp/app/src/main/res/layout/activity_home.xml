@@ -53,6 +53,7 @@
             android:layout_marginTop="-10dp"/>
     </RelativeLayout>
     <RelativeLayout
+        android:id="@+id/layoutHome2"
         android:layout_width="match_parent"
         android:layout_height="160dp"
         android:layout_below="@+id/layoutHome1"
@@ -63,6 +64,7 @@
             android:id="@+id/ruangkelasHome"
             android:layout_width="match_parent"
             android:layout_height="130dp"
+            android:layout_marginTop="5dp"
             android:src="@drawable/ruangkelas"/>
         <TextView
             android:layout_width="wrap_content"
@@ -73,14 +75,31 @@
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="20dp"
             android:textColor="@color/colorPrimary"/>
-        <View
+        <TextView
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="10dp"
-            android:background=""/>
+            android:background="@drawable/bg_warning"
+            android:text="4"
+            android:textSize="28dp"
+            android:textColor="@color/whiteColor"
+            android:textAlignment="center"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@+id/layoutHome3"
+        android:background="@color/whiteColor"
+        android:layout_below="@+id/layoutHome2">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:background="@color/thirdColor">
+        </RelativeLayout>
     </RelativeLayout>
 
 </RelativeLayout>

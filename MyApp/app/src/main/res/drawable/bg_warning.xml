@@ -10,7 +10,7 @@
         android:topRightRadius="100dp"
         />
     <solid
-        android:color="@color/secondColor"
+        android:color="@color/dayOneColor"
         />
     <size
         android:width="10dp"

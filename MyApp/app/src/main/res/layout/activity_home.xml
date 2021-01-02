@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/thirdColor"
@@ -9,6 +9,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="140dp"
+        android:orientation="vertical"
         android:id="@+id/layoutHome1">
         <ImageView
             android:id="@+id/imagaHome"
@@ -56,6 +57,7 @@
         android:id="@+id/layoutHome2"
         android:layout_width="match_parent"
         android:layout_height="160dp"
+        android:orientation="vertical"
         android:layout_below="@+id/layoutHome1"
         android:background="@drawable/bg_square_round"
         android:layout_margin="15dp">
@@ -92,12 +94,14 @@
         android:layout_width="match_parent"
         android:layout_height="160dp"
         android:id="@+id/layoutHome3"
+        android:orientation="vertical"
         android:background="@color/whiteColor"
         android:layout_below="@+id/layoutHome2">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="15dp"
+            android:orientation="vertical"
             android:background="@color/fourthColor">
             <ImageView
                 android:layout_width="180dp"
@@ -150,11 +154,13 @@
         android:id="@+id/layoutHome4"
         android:layout_width="match_parent"
         android:layout_height="180dp"
+        android:orientation="vertical"
         android:layout_below="@id/layoutHome3">
         <RelativeLayout
             android:id="@+id/layoutHome41"
             android:layout_width="190dp"
             android:layout_height="60dp"
+            android:orientation="vertical"
             android:background="@color/mainColor"
             android:layout_margin="15dp">
             <ImageView
@@ -178,6 +184,7 @@
             android:id="@+id/layoutHome42"
             android:layout_width="80dp"
             android:layout_height="60dp"
+            android:orientation="vertical"
             android:layout_marginRight="15dp"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
@@ -203,6 +210,7 @@
             android:layout_height="60dp"
             android:layout_marginRight="15dp"
             android:layout_marginTop="15dp"
+            android:orientation="vertical"
             android:layout_marginBottom="15dp"
             android:background="@drawable/bg_square_round"
             android:layout_toRightOf="@id/layoutHome42">
@@ -223,6 +231,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="90dp"
+            android:orientation="vertical"
             android:layout_below="@id/layoutHome41"
             android:background="@drawable/bg_square_round"
             android:layout_marginLeft="15dp"

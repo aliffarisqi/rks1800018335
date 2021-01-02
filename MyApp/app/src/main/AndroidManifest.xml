@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Home"></activity>
-        <activity android:name=".login" />
+        <activity android:name=".Login" />
         <activity android:name=".Slidess" />
         <activity android:name=".Slides" />
         <activity android:name=".MainActivity">

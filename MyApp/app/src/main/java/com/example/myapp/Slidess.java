@@ -17,7 +17,7 @@ public class Slidess extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                Intent inte = new Intent(Slidess.this, login.class);
+                Intent inte = new Intent(Slidess.this, Login.class);
                 startActivity(inte);
             }
         });

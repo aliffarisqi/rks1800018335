@@ -12,7 +12,7 @@
         android:orientation="vertical"
         android:id="@+id/layoutHome1">
         <ImageView
-            android:id="@+id/imageHome"
+            android:id="@+id/imagaHome"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/sekolahhome"
@@ -53,7 +53,221 @@
             android:textStyle="bold"
             android:layout_marginTop="-10dp"/>
     </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/layoutHome2"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/layoutHome1"
+        android:background="@drawable/bg_square_round"
+        android:layout_margin="15dp">
 
+        <ImageView
+            android:id="@+id/ruangkelasHome"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ruangkelas"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelas VII A"
+            android:layout_alignParentBottom="true"
+            android:textSize="32dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/mainColor"/>
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_warning"
+            android:text="4"
+            android:textSize="38sp"
+            android:textColor="@color/whiteColor"
+            android:textAlignment="center"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:id="@+id/layoutHome3"
+        android:orientation="vertical"
+        android:background="@color/whiteColor"
+        android:layout_below="@+id/layoutHome2">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:background="@color/fourthColor">
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="110dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/perpustakaan"/>
+            <TextView
+                android:id="@+id/TV_Perpustakaan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perpustakaan"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="35dp"
+                android:textSize="22sp"
+                android:textColor="@color/mainColor"/>
+            <TextView
+                android:id="@+id/TV_IPA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ilmu Pengetahuan alam"
+                android:layout_below="@id/TV_Perpustakaan"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="35dp"
+                android:textColor="@color/darkColor"/>
+            <TextView
+                android:id="@+id/TV_IPS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ilmu Pengetahuan Sosial"
+                android:layout_below="@id/TV_IPA"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="-3dp"
+                android:textColor="@color/darkColor"/>
+            <TextView
+                android:id="@+id/TV_Bahasa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bahasa"
+                android:layout_below="@id/TV_IPS"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="-3dp"
+                android:textColor="@color/darkColor"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutHome4"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:layout_below="@id/layoutHome3">
+        <RelativeLayout
+            android:id="@+id/layoutHome41"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:background="@color/mainColor"
+            android:layout_margin="15dp">
+            <ImageView
+                android:id="@+id/IV_guru"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/guru"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kantor Guru"
+                android:textColor="@color/whiteColor"
+                android:layout_toRightOf="@id/IV_guru"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:textSize="20sp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/layoutHome42"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/bg_square_round"
+            android:layout_toRightOf="@id/layoutHome41">
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:src="@drawable/walikelas"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wali Kelas"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="2dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/darkColor"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/layoutHome43"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/bg_square_round"
+            android:layout_toRightOf="@id/layoutHome42">
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ketuakelas"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ketua Kelas"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="2dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/darkColor"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/layoutHome5"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="vertical"
+            android:layout_below="@id/layoutHome41"
+            android:background="@drawable/bg_square_round"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+            <ImageView
+                android:id="@+id/IV_tatausaha"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/tatausaha"
+                android:layout_marginLeft="50dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tata Usaha"
+                android:layout_toRightOf="@+id/IV_tatausaha"
+                android:layout_marginLeft="15dp"
+                android:textSize="28sp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/darkColor"/>
+            <TextView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_warning"
+                android:text="1"
+                android:textSize="25dp"
+                android:textColor="@color/whiteColor"
+                android:textAlignment="center"/>
+        </RelativeLayout>
+    </RelativeLayout>
 
 
 </RelativeLayout>

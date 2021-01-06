@@ -64,12 +64,13 @@
         android:layout_below="@+id/textjadwal"
         android:paddingTop="5dp">
         <RelativeLayout
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="match_parent"
             android:background="@drawable/bg_square_round"
             android:layout_marginLeft="20dp"
             android:layout_marginBottom="5dp">
             <TextView
+                android:id="@+id/tv_day1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Senin"
@@ -78,14 +79,127 @@
                 android:textStyle="bold"
                 android:textAlignment="center"
                 android:padding="2dp"/>
+
+            <TextView
+                android:id="@+id/tv_warning_14"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/tv_day1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="4"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bg_warning_4" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bahasa Indonesia"
+                android:layout_below="@+id/tv_day1"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/dayFiveColor"
+                android:layout_toRightOf="@+id/tv_warning_14"
+                android:layout_marginLeft="10dp"/>
+            <View
+                android:id="@+id/v_b11"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_below="@+id/tv_warning_14"
+                android:background="@drawable/bg_warning_utama"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Biologi"
+                android:layout_below="@+id/tv_warning_14"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/v_b11"/>
+            <View
+                android:id="@+id/v_b12"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_below="@+id/v_b11"
+                android:background="@drawable/bg_warning_utama"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Olahraga"
+                android:layout_below="@+id/v_b11"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/v_b11"/>
         </RelativeLayout>
         <RelativeLayout
-            android:layout_width="180dp"
+            android:layout_width="170dp"
             android:layout_height="match_parent"
             android:background="@drawable/bg_square_round"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="5dp"
             android:layout_alignParentRight="true">
+            <TextView
+                android:id="@+id/tv_day2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Selasa"
+                android:background="@color/mainColor"
+                android:textColor="@color/whiteColor"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:padding="2dp"/>
+
+            <View
+                android:id="@+id/v_b21"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_below="@+id/tv_day2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                android:textAlignment="center"
+
+                android:background="@drawable/bg_warning_utama" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bahasa Jawa"
+                android:layout_below="@+id/tv_day2"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/v_b21"
+                android:layout_marginLeft="10dp"/>
+            <View
+                android:id="@+id/v_b22"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_below="@+id/v_b21"
+                android:background="@drawable/bg_warning_utama"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fisika"
+                android:layout_below="@+id/v_b21"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/v_b22"/>
+            <View
+                android:id="@+id/v_b23"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_below="@+id/v_b22"
+                android:background="@drawable/bg_warning_utama"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Olahraga"
+                android:layout_below="@+id/v_b22"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/v_b23"/>
         </RelativeLayout>
     </RelativeLayout>
 

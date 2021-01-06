@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Home"/>
+        <activity android:name=".kelas.KelasHome"
+            android:parentActivityName=".Home"></activity>
+        <activity android:name=".Home" />
         <activity android:name=".Login" />
         <activity android:name=".Slidess" />
         <activity android:name=".Slides" />

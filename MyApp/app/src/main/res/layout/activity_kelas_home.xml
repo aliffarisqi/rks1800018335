@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/thirdColor"
+    tools:context=".kelas.KelasHome">
+    <RelativeLayout
+        android:id="@+id/layoutKelasHome"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_square_round"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:id="@+id/ruangkelasHome"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ruangkelas"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelas VII A"
+            android:layout_alignParentBottom="true"
+            android:textSize="32dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/mainColor"/>
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_warning"
+            android:text="4"
+            android:textSize="38sp"
+            android:textColor="@color/whiteColor"
+            android:textAlignment="center"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/textjadwal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_square_round"
+        android:layout_below="@+id/layoutKelasHome"
+        android:text="Jadwal Pelajaran Kelas VIIA"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="25dp"
+        android:textSize="16sp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_below="@+id/textjadwal"
+        android:paddingTop="5dp">
+        <RelativeLayout
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_square_round"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Senin"
+                android:background="@color/mainColor"
+                android:textColor="@color/whiteColor"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:padding="2dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_square_round"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentRight="true">
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

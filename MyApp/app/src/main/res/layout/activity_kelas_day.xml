@@ -14,7 +14,6 @@
         android:orientation="vertical"
         android:background="@drawable/bg_square_round"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="5dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp">
 

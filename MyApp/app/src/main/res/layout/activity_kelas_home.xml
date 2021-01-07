@@ -205,28 +205,33 @@
                 android:layout_toRightOf="@+id/v_b23"/>
         </RelativeLayout>
     </RelativeLayout>
+
     <RelativeLayout
         android:id="@+id/layoutKelasHome3"
         android:layout_width="match_parent"
         android:layout_height="125dp"
+        android:background="@color/whiteColor"
         android:layout_below="@+id/layoutKelasHome2"
+        android:layout_marginTop="1dp"
         android:paddingTop="5dp">
+
         <RelativeLayout
             android:layout_width="170dp"
             android:layout_height="match_parent"
-            android:background="@drawable/bg_square_round"
             android:layout_marginLeft="20dp"
-            android:layout_marginBottom="5dp">
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/bg_squere">
+
             <TextView
                 android:id="@+id/tv_day3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Rabu"
                 android:background="@color/mainColor"
-                android:textColor="@color/whiteColor"
-                android:textStyle="bold"
+                android:padding="2dp"
+                android:text="Rabu"
                 android:textAlignment="center"
-                android:padding="2dp"/>
+                android:textColor="@color/whiteColor"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tv_warning_31"
@@ -239,124 +244,136 @@
                 android:background="@drawable/bg_warning_utama"
                 android:textAlignment="center"
                 android:textSize="18sp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Bahasa Inggris"
                 android:layout_below="@+id/tv_day3"
+                android:layout_marginLeft="15dp"
                 android:layout_marginTop="5dp"
                 android:layout_toRightOf="@+id/tv_warning_31"
-                android:layout_marginLeft="15dp"/>
-            <View
-                android:id="@+id/v_b31"
-                android:layout_width="13dp"
-                android:layout_height="13dp"
-                android:layout_below="@+id/tv_warning_31"
-                android:background="@drawable/bg_warning_utama"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="4dp"/>
+                android:text="Bahasa Inggris" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="IPS"
                 android:layout_below="@+id/tv_warning_31"
                 android:layout_marginLeft="15dp"
-                android:layout_toRightOf="@+id/v_b31"/>
+                android:layout_toRightOf="@+id/v_b31"
+                android:text="IPS" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/v_b31"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/v_b32"
+                android:text="Tata Boga" />
+
             <View
                 android:id="@+id/v_b32"
                 android:layout_width="13dp"
                 android:layout_height="13dp"
                 android:layout_below="@+id/v_b31"
-                android:background="@drawable/bg_warning_utama"
                 android:layout_marginLeft="10dp"
-                android:layout_marginTop="4dp"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Tata Boga"
-                android:layout_below="@+id/v_b31"
-                android:layout_marginLeft="15dp"
-                android:layout_toRightOf="@+id/v_b32"/>
+                android:layout_marginTop="4dp"
+                android:background="@drawable/bg_warning_utama" />
+
+            <View
+                android:id="@+id/v_b31"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_below="@+id/tv_warning_31"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/bg_warning_utama" />
         </RelativeLayout>
+
         <RelativeLayout
             android:layout_width="170dp"
             android:layout_height="match_parent"
-            android:background="@drawable/bg_square_round"
+            android:layout_alignParentRight="true"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="5dp"
-            android:layout_alignParentRight="true">
+            android:background="@drawable/bg_square_round">
+
             <TextView
                 android:id="@+id/tv_day4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Selasa"
                 android:background="@color/mainColor"
-                android:textColor="@color/whiteColor"
-                android:textStyle="bold"
+                android:padding="2dp"
+                android:text="Selasa"
                 android:textAlignment="center"
-                android:padding="2dp"/>
+                android:textColor="@color/whiteColor"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/v_b41"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_below="@+id/tv_day4"
-                android:layout_marginTop="5dp"
                 android:layout_marginLeft="5dp"
-                android:textSize="18sp"
-                android:textAlignment="center"
-                android:text="1"
-                android:textColor="@color/whiteColor"
-                android:background="@drawable/bg_warning" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Matematika"
-                android:layout_below="@+id/tv_day4"
                 android:layout_marginTop="5dp"
-                android:textStyle="bold"
-                android:textColor="@color/dayOneColor"
-                android:layout_toRightOf="@+id/v_b41"
-                android:layout_marginLeft="5dp"/>
-            <View
-                android:id="@+id/v_b42"
-                android:layout_width="13dp"
-                android:layout_height="13dp"
-                android:layout_below="@+id/v_b41"
-                android:background="@drawable/bg_warning_utama"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="4dp"/>
+                android:background="@drawable/bg_warning"
+                android:text="1"
+                android:textAlignment="center"
+                android:textColor="@color/whiteColor"
+                android:textSize="18sp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Fisika"
+                android:layout_below="@+id/tv_day4"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/v_b41"
+                android:text="Matematika"
+                android:textColor="@color/dayOneColor"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/v_b41"
                 android:layout_marginLeft="10dp"
-                android:layout_toRightOf="@+id/v_b42"/>
+                android:layout_toRightOf="@+id/v_b42"
+                android:text="Fisika" />
 
             <TextView
                 android:id="@+id/v_b43"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_below="@+id/v_b42"
-                android:textColor="@color/whiteColor"
-                android:text="2"
-                android:textAlignment="center"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="4dp"
-                android:background="@drawable/bg_warning" />
+                android:background="@drawable/bg_warning"
+                android:text="2"
+                android:textAlignment="center"
+                android:textColor="@color/whiteColor" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Olahraga"
-                android:textStyle="bold"
-                android:textColor="@color/dayOneColor"
                 android:layout_below="@+id/v_b42"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="2dp"
-                android:layout_toRightOf="@+id/v_b43"/>
+                android:layout_toRightOf="@+id/v_b43"
+                android:text="Olahraga"
+                android:textColor="@color/dayOneColor"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/v_b42"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_below="@+id/v_b41"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/bg_warning_utama" />
         </RelativeLayout>
     </RelativeLayout>
+
     <RelativeLayout
         android:id="@+id/layoutKelasHome4"
         android:layout_width="match_parent"

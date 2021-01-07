@@ -66,6 +66,7 @@
         android:paddingTop="10dp"
         android:paddingBottom="5dp">
         <RelativeLayout
+            android:id="@+id/rl_senin"
             android:layout_width="170dp"
             android:layout_height="match_parent"
             android:background="@drawable/bg_square_round"

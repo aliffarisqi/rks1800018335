@@ -10,7 +10,7 @@
         android:bottomLeftRadius="10dp"
         />
     <solid
-        android:color="@color/thirdColor"
+        android:color="@color/fourthColor"
         />
     <size
         android:width="10dp"

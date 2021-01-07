@@ -61,9 +61,10 @@
     <RelativeLayout
         android:id="@+id/layoutKelasHome2"
         android:layout_width="match_parent"
-        android:layout_height="125dp"
+        android:layout_height="140dp"
         android:layout_below="@+id/textjadwal"
-        android:paddingTop="5dp">
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp">
         <RelativeLayout
             android:layout_width="170dp"
             android:layout_height="match_parent"
@@ -209,24 +210,25 @@
     <RelativeLayout
         android:id="@+id/layoutKelasHome3"
         android:layout_width="match_parent"
-        android:layout_height="125dp"
+        android:layout_height="140dp"
         android:background="@color/whiteColor"
         android:layout_below="@+id/layoutKelasHome2"
         android:layout_marginTop="1dp"
-        android:paddingTop="5dp">
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp">
 
         <RelativeLayout
             android:layout_width="170dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="20dp"
             android:layout_marginBottom="5dp"
-            android:background="@drawable/bg_squere">
+            android:background="@drawable/bg_square_round_2">
 
             <TextView
                 android:id="@+id/tv_day3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/mainColor"
+                android:background="@color/onlineColor"
                 android:padding="2dp"
                 android:text="Rabu"
                 android:textAlignment="center"
@@ -295,7 +297,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="5dp"
-            android:background="@drawable/bg_square_round">
+            android:background="@drawable/bg_square_round_2">
 
             <TextView
                 android:id="@+id/tv_day4"
@@ -377,9 +379,10 @@
     <RelativeLayout
         android:id="@+id/layoutKelasHome4"
         android:layout_width="match_parent"
-        android:layout_height="125dp"
+        android:layout_height="140dp"
         android:layout_below="@+id/layoutKelasHome3"
-        android:paddingTop="5dp">
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp">
         <RelativeLayout
             android:layout_width="170dp"
             android:layout_height="match_parent"

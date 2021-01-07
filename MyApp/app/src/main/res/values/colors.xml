@@ -6,7 +6,7 @@
 
     //custome color
     //nackground color
-    <color name="headdark">#9E002C35</color>
+    <color name="headdark">#002C35</color>
     <color name="head">#007997</color>
 
     <color name="mainColor">#199EB9</color>

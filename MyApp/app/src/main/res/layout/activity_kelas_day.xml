@@ -62,5 +62,48 @@
             android:padding="2dp"
             android:textSize="22sp"
             android:textStyle="bold"/>
+        <RelativeLayout
+            android:id="@+id/RL_course_1"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@id/tv_daySenin"
+            android:layout_margin="15dp"
+            android:background="@drawable/bg_square">
+            <TextView
+                android:id="@+id/tv_warning_1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="4"
+                android:textStyle="bold"
+                android:textColor="@color/whiteColor"
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/bg_warning_4" />
+            <TextView
+                android:id="@+id/TV_course_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/tv_warning_1"
+                android:text="Baha Indonesia"
+                android:textColor="@color/dayFiveColor"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/bg_warning_4"
+                android:text="Kerjakan"
+                android:textColor="@color/whiteColor"
+                android:textAlignment="center"
+                />
+        </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>

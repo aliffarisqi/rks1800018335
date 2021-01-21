@@ -65,7 +65,7 @@
         <RelativeLayout
             android:id="@+id/RL_course_1"
             android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_height="100dp"
             android:layout_below="@id/tv_daySenin"
             android:layout_margin="15dp"
             android:background="@drawable/bg_square">
@@ -98,11 +98,31 @@
                 android:layout_height="20dp"
                 android:layout_alignParentRight="true"
                 android:layout_marginTop="5dp"
-                android:layout_marginRight="20dp"
+                android:layout_marginRight="10dp"
                 android:background="@drawable/bg_warning_4"
                 android:text="Kerjakan"
                 android:textColor="@color/whiteColor"
                 android:textAlignment="center"
+                />
+            <TextView
+                android:id="@+id/TV_guru_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TV_course_1"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/user_line"
+                android:layout_marginLeft="30dp"
+                android:text="Guru pengampu     : Amalia S.Pd"
+                />
+            <TextView
+                android:id="@+id/TV_time_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TV_guru_1"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/time_line"
+                android:layout_marginLeft="30dp"
+                android:text="Guru pengampu     : Amalia S.Pd"
                 />
         </RelativeLayout>
     </RelativeLayout>

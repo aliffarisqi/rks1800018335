@@ -6,7 +6,7 @@ is to use dummy data.
 The Front End that I built follows or matches(Sesuai Dengan) the wireframe design, workflow, and documentation needs that I have made before UAS.even so there are some additional features that haven't been added to the front end design.
 The following is the link to the previous UTS folder which contains workflows, wireframes, and required documentation:
 
-[to the previous UTS folder](https://drive.google.com/drive/folders/10umITYlThlMVJmQqVuqLJvu9zLcYRp3V)
+![#1589F0]([to the previous UTS folder](https://drive.google.com/drive/folders/10umITYlThlMVJmQqVuqLJvu9zLcYRp3V))
 
 The following Important files are used and entered in the following folder:
 I upload or push files using gut bash

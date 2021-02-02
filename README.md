@@ -80,4 +80,4 @@ I upload or push files using gut bash
 
 ### I. GIFT or Video
 
-   https://user-images.githubusercontent.com/48192376/106551280-83029500-6547-11eb-9e93-585fa3a126bf.mp4
+   ![RKSEXAM_Bayu_1800018335](https://user-images.githubusercontent.com/48192376/106552287-96166480-6549-11eb-94d9-6d86a82bacdf.gif)

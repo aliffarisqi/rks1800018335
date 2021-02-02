@@ -62,6 +62,7 @@ I upload or push files using gut bash
 ```
 
 ### H. Screenshoot
+```sh
   - Welcome Page
     ![Screenshot (74)](https://user-images.githubusercontent.com/48192376/106550415-ab898f80-6545-11eb-922b-87518c8b5228.png)
   
@@ -75,3 +76,4 @@ I upload or push files using gut bash
 
   - Course Page
     ![Screenshot (78)](https://user-images.githubusercontent.com/48192376/106550440-b2b09d80-6545-11eb-9260-f01068bc6c3e.png)
+```

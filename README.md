@@ -11,8 +11,8 @@ The following is the link to the previous UTS folder which contains workflows, w
 The following Important files are used and entered in the following folder:
 I upload or push files using gut bash
 
->A. Files Layout
-> ```sh
+> A. Files Layout
+```sh
   - activity_home.xml
   - activity_kelas_day.xml
   - activity_login.xml
@@ -22,7 +22,7 @@ I upload or push files using gut bash
 ```
 
 > B. Files JAVA
-> ```sh
+```sh
   - KelasDay.java
   - KelasHome.java
   - Home.java
@@ -32,7 +32,7 @@ I upload or push files using gut bash
   - Slidess.java
 ```
 > C. Drawable
-> ```sh
+```sh
   - arrow.xml
   - bg_squre.xml
   - bgsquare_round.xml
@@ -44,13 +44,13 @@ I upload or push files using gut bash
   - icon_home.xml
 ```
 > D. Font
-> ```sh
+```sh
   - lato_bold.ttf
   - lato_regular.ttf
   - lustria_regular.ttf
 ```
 > F. Values
-> ```sh
+```sh
   - colors.xml
   - strings.xml
   - styles.xml

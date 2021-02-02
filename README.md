@@ -7,7 +7,7 @@ The Front End that I built follows or matches(Sesuai Dengan) the wireframe desig
 The following is the link to the previous UTS folder which contains workflows, wireframes, and required documentation:
 
 ### [To the previous UTS folder](https://drive.google.com/drive/folders/10umITYlThlMVJmQqVuqLJvu9zLcYRp3V)
-
+***
 The following Important files are used and entered in the following folder:
 I upload or push files using gut bash
 
@@ -78,5 +78,6 @@ I upload or push files using gut bash
   ##### Course Page
   ![Screenshot (78)](https://user-images.githubusercontent.com/48192376/106550440-b2b09d80-6545-11eb-9260-f01068bc6c3e.png)
 
+***
 ### I. GIFT or Video
   ![RKS_EXAM_Bayu_1800018335](https://user-images.githubusercontent.com/48192376/106552694-5d2abf80-654a-11eb-9db8-c0385d148f75.gif)

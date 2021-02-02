@@ -62,24 +62,19 @@ I upload or push files using gut bash
 ```
 
 ### H. Screenshoot
-```sh
+
   ##### Welcome Page
-```
   ![Screenshot (74)](https://user-images.githubusercontent.com/48192376/106550415-ab898f80-6545-11eb-922b-87518c8b5228.png)
-```sh
+
   ##### Login Page
-```
   ![Screenshot (75)](https://user-images.githubusercontent.com/48192376/106550420-ae848000-6545-11eb-9fca-f2a3761a463a.png)
-```sh
+
   ##### Home Page
-```
   ![Screenshot (76)](https://user-images.githubusercontent.com/48192376/106550428-afb5ad00-6545-11eb-82f7-605659158bd2.png)
-```sh
+
   ##### Class Page
-```
   ![Screenshot (77)](https://user-images.githubusercontent.com/48192376/106550433-b17f7080-6545-11eb-8d46-08012e52592a.png)
-```sh
+  
   ##### Course Page
-```
   ![Screenshot (78)](https://user-images.githubusercontent.com/48192376/106550440-b2b09d80-6545-11eb-9260-f01068bc6c3e.png)
 

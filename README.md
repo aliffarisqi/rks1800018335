@@ -79,5 +79,4 @@ I upload or push files using gut bash
   ![Screenshot (78)](https://user-images.githubusercontent.com/48192376/106550440-b2b09d80-6545-11eb-9260-f01068bc6c3e.png)
 
 ### I. GIFT or Video
-
-   ![RKSEXAM_Bayu_1800018335](https://user-images.githubusercontent.com/48192376/106552287-96166480-6549-11eb-94d9-6d86a82bacdf.gif)
+  ![RKS_EXAM_Bayu_1800018335](https://user-images.githubusercontent.com/48192376/106552694-5d2abf80-654a-11eb-9db8-c0385d148f75.gif)

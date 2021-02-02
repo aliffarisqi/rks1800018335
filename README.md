@@ -9,24 +9,24 @@ The following is the link to the previous UTS folder which contains workflows, w
 [to the previous UTS folder](https://drive.google.com/drive/folders/10umITYlThlMVJmQqVuqLJvu9zLcYRp3V)
 
 The following Important files are used and entered in the following folder:
-# I upload or push files using gut bash
+I upload or push files using gut bash
 
 > A. Files Layout
-  - activity_home.xml
-  - activity_kelas_day.xml
-  - activity_login.xml
-  - activity_main.xml
-  - activity_slide2.xml
-  - activity_slidess.xml
+>  - activity_home.xml
+>  - activity_kelas_day.xml
+>  - activity_login.xml
+>  - activity_main.xml
+>  - activity_slide2.xml
+>  - activity_slidess.xml
 
 > B. Files JAVA
-  - KelasDay.java
-  - KelasHome.java
-  - Home.java
-  - Login.java
-  - MainActivity.java
-  - Slides.java
-  - Slidess.java
+>  - KelasDay.java
+>  - KelasHome.java
+>  - Home.java
+>  - Login.java
+>  - MainActivity.java
+>  - Slides.java
+>  - Slidess.java
 
 C. Drawable
 
